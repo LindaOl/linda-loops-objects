@@ -18,6 +18,15 @@ const pokemons = [
 // create a loop that prints all
 // the pokemons from the pokemons array
 // invoke the function to see that it works
+const pokemonList = () => {
+  for (i = 0; i < pokemons.length; i++) {
+    console.log(pokemonList[i]);
+  }
+}
+
+pokemonList()
+
+
 
 // 2)
 // Create an object for the pokemon Pikachu.
