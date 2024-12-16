@@ -100,13 +100,8 @@ const moreAboutPokemons = [
 
 // 8)
 // Print out all the NAMES of the pokemons in this new array.
-
-const newPokemonList = () => {
-  moreAboutPokemons.forEach((pokemon) => {
-    console.log(`${pokemon.name}`)
-  })
-};
-newPokemonList();
+const newPokemonList = moreAboutPokemons.map(pokemon => pokemon.name);
+console.log(`${newPokemonList}`);
 
 
 // 9)
